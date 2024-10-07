@@ -16,6 +16,6 @@ def detectbeat2(audio_directory):
     tempi = tempo_processor(proc)
     dominant_tempo = tempi[0, 0]
     tempo_strength = tempi[0, 1]
-                       
+      
     return beats, dominant_tempo, tempo_strength
 

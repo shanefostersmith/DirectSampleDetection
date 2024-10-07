@@ -18,5 +18,5 @@ def loadSongs(file_path_song,file_path_sample,samplerate):
     
     if (len(audio_data1) == 0):
         print("Audio data empty")
-    return audio_data1, audio_data2
+    return audio_data1, audio_data2, song_wav, sample_wav
 
